@@ -1,0 +1,44 @@
+h3 {
+  font-family: $main-font;
+  margin: 15px 0 20px 0;
+  text-align: center;
+  font-size: 28px;
+  color: $header-text-color;
+}
+
+.close-icon {
+  font-size: 18px;
+  color: #BDBDBD;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+
+  &:hover {
+    color: $hover-color;
+  }
+}
+
+.overlay-div {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  left: 0;
+  top: 0;
+  width: 100%;
+  min-height: 100%;
+  z-index: 10;
+}
+
+.login-pop-up {
+  position: fixed;
+  width: 300px;
+  height: 410px;
+  background-color: $background-color;
+  border-radius: 10px;
+  padding: 20px;
+  margin-left: -150px;
+  margin-top: -250px;
+  left: 50%;
+  top: 50%; 
+  box-shadow: 2px 2px 8px black;
+  z-index: 10;
+}
